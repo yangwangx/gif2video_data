@@ -11,7 +11,7 @@ python setup/play_face_video.py
 python setup/play_face_video.py --faceonly --expand 1.5
 
 # extract face frames as ground-truth
-python python setup/extract_face_frames.py
+python setup/extract_face_frames.py
 
 # compute gif frames using ground-truth images
 # modify settings in `generate_gif_image.m` first
